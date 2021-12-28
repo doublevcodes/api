@@ -1,6 +1,6 @@
 <h1 align="center">API</h1>
 
-This API is an internal service that serves as an abstraction layer between my persistent storage and my client-facing infrastructure such as my website
+This API is an internal service that serves as an abstraction layer between my persistent storage and my client-facing infrastructure such as my website.
 The API is currently publicly accessible although this is subject to
 change in future circumstances.
 
