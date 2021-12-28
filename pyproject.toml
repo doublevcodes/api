@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Vivaan Verma <54081925+doublevcodes@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.70.1"
+sqlmodel = "^0.0.6"
+strawberry-graphql = "^0.93.13"
+uvicorn = "^0.16.0"
+websockets = "^10.1"
+psycopg2 = "^2.9.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.930"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
